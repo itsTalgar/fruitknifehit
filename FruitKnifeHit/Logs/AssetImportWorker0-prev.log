@@ -1,0 +1,750 @@
+Unity Editor version:    2022.3.27f1 (73effa14754f)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.4.1 (Build 23E224)
+Darwin version:          23.4.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.27f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/talgar2696/Downloads/FruitKnifeHit
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49490
+Successfully changed project path to: /Users/talgar2696/Downloads/FruitKnifeHit
+/Users/talgar2696/Downloads/FruitKnifeHit
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8700492480] Host "[IP] 192.168.1.101 [Port] 0 [Flags] 2 [Guid] 2097245408 [EditorId] 2097245408 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-Talgar.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8700492480] Host "[IP] 192.168.1.101 [Port] 0 [Flags] 2 [Guid] 2097245408 [EditorId] 2097245408 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-Talgar.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 9 workers.
+Refreshing native plugins compatible for Editor in 4.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.27f1 (73effa14754f)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.27f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/talgar2696/Downloads/FruitKnifeHit/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 Pro (high power)
+Metal devices available: 1
+0: Apple M1 Pro (high power)
+Using device Apple M1 Pro (high power)
+Initializing Metal device caps: Apple M1 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.27f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.27f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.27f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56774
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.27f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.27f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001301 seconds.
+- Loaded All Assemblies, in  0.199 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.151 seconds
+Domain Reload Profiling: 351ms
+	BeginReloadAssembly (53ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (90ms)
+		LoadAssemblies (53ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (88ms)
+			TypeCache.Refresh (87ms)
+				TypeCache.ScanAssembly (77ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (151ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (115ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (81ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.256 seconds
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.302 seconds
+Domain Reload Profiling: 558ms
+	BeginReloadAssembly (65ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (10ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (141ms)
+		LoadAssemblies (121ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (54ms)
+			TypeCache.Refresh (48ms)
+				TypeCache.ScanAssembly (39ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (302ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (218ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (22ms)
+			ProcessInitializeOnLoadAttributes (177ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.27f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1423 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (50.9 KB). Loaded Objects now: 1893.
+Memory consumption went from 87.8 MB to 87.8 MB.
+Total: 2.219083 ms (FindLiveObjects: 0.063792 ms CreateObjectMapping: 0.018583 ms MarkObjects: 2.044750 ms  DeleteObjects: 0.091375 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 9880.336972 seconds.
+  path: Assets/Fruits Knife Hit/Artworks
+  artifactKey: Guid(6fe35db1fdff84c05bd5e62e73268b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fruits Knife Hit/Artworks using Guid(6fe35db1fdff84c05bd5e62e73268b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40504981cfd93b0a7ab2fe1be6fa6ec1') in 0.001052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.041653 seconds.
+  path: Assets/Fruits Knife Hit/Demigiant/DOTween
+  artifactKey: Guid(799916e980aea423682b61ae50c22028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fruits Knife Hit/Demigiant/DOTween using Guid(799916e980aea423682b61ae50c22028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef83f35765378fbc83a81d6b40ef5bfa') in 0.000231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.689989 seconds.
+  path: Assets/Fruits Knife Hit/Fonts/coolvetica.ttf
+  artifactKey: Guid(f7e62475c64594d44ad4a9872c6efaa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fruits Knife Hit/Fonts/coolvetica.ttf using Guid(f7e62475c64594d44ad4a9872c6efaa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78c2ec6b2d629287e7c5adcf0be5699e') in 0.195650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 8.395790 seconds.
+  path: Assets/Fruits Knife Hit/Materials/gloweffect.mat
+  artifactKey: Guid(a08905bef33484566b8f0c271441a475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fruits Knife Hit/Materials/gloweffect.mat using Guid(a08905bef33484566b8f0c271441a475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '579089c96a71e4aa08bc91b1ab3ac453') in 0.051673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Fruits Knife Hit/Materials/Pen.mat
+  artifactKey: Guid(3f8482c76070142e382c11bf469560bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fruits Knife Hit/Materials/Pen.mat using Guid(3f8482c76070142e382c11bf469560bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '615776e38d9fd07570873d420272c395') in 0.009832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Fruits Knife Hit/Materials/spash.mat
+  artifactKey: Guid(5ceb5e8d823084a33b279a3c0f07e01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fruits Knife Hit/Materials/spash.mat using Guid(5ceb5e8d823084a33b279a3c0f07e01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d317c240626a0afc74f8ce67e84c6d7') in 0.003501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.937890 seconds.
+  path: Assets/Fruits Knife Hit/Resources/DOTweenSettings.asset
+  artifactKey: Guid(0a6651e4c05e744de9f0e843f5fdefc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fruits Knife Hit/Resources/DOTweenSettings.asset using Guid(0a6651e4c05e744de9f0e843f5fdefc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af5f519eeddc05d03a1130a7fae82215') in 0.000696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.436196 seconds.
+  path: Assets/Fruits Knife Hit/Prefabs/Apple.prefab
+  artifactKey: Guid(eb0b3442a18424617bf5f7548e06ab34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fruits Knife Hit/Prefabs/Apple.prefab using Guid(eb0b3442a18424617bf5f7548e06ab34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aac0aaeb45e141398e1f3cb3c38e7af') in 0.021828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Fruits Knife Hit/Prefabs/Cherry.prefab
+  artifactKey: Guid(bb24354bde0a64e73b29b741b73c9dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fruits Knife Hit/Prefabs/Cherry.prefab using Guid(bb24354bde0a64e73b29b741b73c9dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae69ba40de8bf1c9f74ab531d0489847') in 0.003212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Fruits Knife Hit/Prefabs/Orange.prefab
+  artifactKey: Guid(6ee2191b03bce482fad0c2ef8d9fb489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fruits Knife Hit/Prefabs/Orange.prefab using Guid(6ee2191b03bce482fad0c2ef8d9fb489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '599303faddf2356b9a34eae74565578e') in 0.003378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Fruits Knife Hit/Prefabs/Melon Half.prefab
+  artifactKey: Guid(2299828ff7eb14276bfa799bcec481c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fruits Knife Hit/Prefabs/Melon Half.prefab using Guid(2299828ff7eb14276bfa799bcec481c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e02069f28eca1bbc612e935e046296eb') in 0.003359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Fruits Knife Hit/Prefabs/Finger Chips.prefab
+  artifactKey: Guid(4f717c39da7db4fb6ac7d3fc2785d003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fruits Knife Hit/Prefabs/Finger Chips.prefab using Guid(4f717c39da7db4fb6ac7d3fc2785d003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbca99dbd673f643b61a38769abc8127') in 0.003525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Fruits Knife Hit/Prefabs/Pomegrate.prefab
+  artifactKey: Guid(fd58f2b54d8d746999d2049b9c9ce260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fruits Knife Hit/Prefabs/Pomegrate.prefab using Guid(fd58f2b54d8d746999d2049b9c9ce260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eb9292402d2ba7da265eb9517079e46') in 0.003403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Fruits Knife Hit/Prefabs/Pear Green.prefab
+  artifactKey: Guid(3b8318bca453241469887625c6b12273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fruits Knife Hit/Prefabs/Pear Green.prefab using Guid(3b8318bca453241469887625c6b12273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fa5f97baa119c0f0986e3a8125b59ab') in 0.002935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 316.747315 seconds.
+  path: Assets/Fruits Knife Hit/Artworks/Background Blue Sky.png
+  artifactKey: Guid(5664d509111e34ca59e7dd34aeca7ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fruits Knife Hit/Artworks/Background Blue Sky.png using Guid(5664d509111e34ca59e7dd34aeca7ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f21fbfb9038c2a97520b6e717720830') in 0.020089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Fruits Knife Hit/Artworks/Background Morning.png
+  artifactKey: Guid(6dbc4a65853b94960a8e964970356eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fruits Knife Hit/Artworks/Background Morning.png using Guid(6dbc4a65853b94960a8e964970356eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acb6e6ac2cc090f6a7f5e3f349fdc110') in 0.004708 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Fruits Knife Hit/Artworks/background new.png
+  artifactKey: Guid(bef5fce313e8341148a3494382920e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fruits Knife Hit/Artworks/background new.png using Guid(bef5fce313e8341148a3494382920e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e695b2e330c74766c09d93bac3715ff7') in 0.006356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Fruits Knife Hit/Artworks/flatDark12.png
+  artifactKey: Guid(d0b28c4ba4478b244925f092dc20c3bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fruits Knife Hit/Artworks/flatDark12.png using Guid(d0b28c4ba4478b244925f092dc20c3bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b1de60211b5441e83918185c4454759') in 0.004148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.361334 seconds.
+  path: Packages/com.unity.ai.navigation/package.json
+  artifactKey: Guid(fbee67e09f48e4652bfa085460c895c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ai.navigation/package.json using Guid(fbee67e09f48e4652bfa085460c895c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d7159fc75d751bc7b491c814f1f437') in 0.000503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.298114 seconds.
+  path: Packages/com.unity.ai.navigation/CHANGELOG.md
+  artifactKey: Guid(ccdfde25179bd45acb7145793b3b87f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ai.navigation/CHANGELOG.md using Guid(ccdfde25179bd45acb7145793b3b87f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd3b8475ce2938b64911bcdf7e0d26cb') in 0.000487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 163.316526 seconds.
+  path: Packages/com.unity.ai.navigation/LICENSE.md
+  artifactKey: Guid(af8f9a7f066204789819c6a616afe2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ai.navigation/LICENSE.md using Guid(af8f9a7f066204789819c6a616afe2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '433a5b8d1ef0ef2611a29844eb589ab2') in 0.000596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.761709 seconds.
+  path: Packages/com.unity.ai.navigation/README.md
+  artifactKey: Guid(6fc2b2cf518e540319637f5c5c573d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ai.navigation/README.md using Guid(6fc2b2cf518e540319637f5c5c573d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fcacfb108588e484b6d2b9e41389593') in 0.000508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 24.927571 seconds.
+  path: Packages/com.unity.ai.navigation/Runtime
+  artifactKey: Guid(ce67aa87f613246dda63a54a59c6399e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ai.navigation/Runtime using Guid(ce67aa87f613246dda63a54a59c6399e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa1748af764550fe9a68a34a7bf3b6a8') in 0.000308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.419952 seconds.
+  path: Packages/com.unity.ai.navigation/Runtime/Unity.AI.Navigation.asmdef
+  artifactKey: Guid(8c4dd21966739024fbd72155091d199e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ai.navigation/Runtime/Unity.AI.Navigation.asmdef using Guid(8c4dd21966739024fbd72155091d199e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3298c42d9d160cc8d84bd52572bd79b3') in 0.000281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.276466 seconds.
+  path: Packages/com.unity.ai.navigation/Runtime/NavMeshModifier.cs
+  artifactKey: Guid(1e3fdca004f2d45fe8abbed571a8abd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ai.navigation/Runtime/NavMeshModifier.cs using Guid(1e3fdca004f2d45fe8abbed571a8abd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f87ebeed65e2379a33208b5e1432e64') in 0.000245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.178160 seconds.
+  path: Packages/com.unity.ai.navigation/Runtime/NavMeshLink.cs
+  artifactKey: Guid(6eeb5dc026fdf4b488bc7ae0138ab719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ai.navigation/Runtime/NavMeshLink.cs using Guid(6eeb5dc026fdf4b488bc7ae0138ab719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac83b5ba2054624ffd8e1019ef98a131') in 0.000241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.949501 seconds.
+  path: Packages/com.unity.ai.navigation/Runtime/HelpUrls.cs
+  artifactKey: Guid(6ad3f38e8fe7c4058ad4c718b8774a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ai.navigation/Runtime/HelpUrls.cs using Guid(6ad3f38e8fe7c4058ad4c718b8774a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e4a8ac65aaa06e78e428111064fdd9') in 0.000243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.524236 seconds.
+  path: Packages/com.unity.ai.navigation/Editor/NavigationPreferences.cs
+  artifactKey: Guid(e8c8febe35b734f4eb15f23d12e5faed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ai.navigation/Editor/NavigationPreferences.cs using Guid(e8c8febe35b734f4eb15f23d12e5faed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '529e309800538059c2297c81f6279f02') in 0.000285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 27.484003 seconds.
+  path: Packages/com.unity.ai.navigation/Editor/NavigationWindow.cs
+  artifactKey: Guid(e86a4b8c5b2b8425b9a3a007619c3a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ai.navigation/Editor/NavigationWindow.cs using Guid(e86a4b8c5b2b8425b9a3a007619c3a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e690b69a7f9139b24a3de3a506eebd6b') in 0.000259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 256.064910 seconds.
+  path: Packages/com.unity.ai.navigation/Editor/NavMeshAssetManager.cs
+  artifactKey: Guid(178d8366aa1616849b91b66285c51454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ai.navigation/Editor/NavMeshAssetManager.cs using Guid(178d8366aa1616849b91b66285c51454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6dbd1faf8985e3e5fe790d545fb9e63') in 0.000253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1129.719181 seconds.
+  path: Packages/com.unity.ai.navigation/Editor/NavMeshComponentsGUIUtility.cs
+  artifactKey: Guid(77fba670b979046f18d52d751e0d4659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ai.navigation/Editor/NavMeshComponentsGUIUtility.cs using Guid(77fba670b979046f18d52d751e0d4659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a68d1c06015c1b50e992625b15dae74') in 0.000258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 18.074392 seconds.
+  path: Packages/com.unity.ai.navigation/Editor/Unity.AI.Navigation.Editor.asmdef
+  artifactKey: Guid(86c9d8e67265f41469be06142c397d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ai.navigation/Editor/Unity.AI.Navigation.Editor.asmdef using Guid(86c9d8e67265f41469be06142c397d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc33d13293436a6632daeed99a46ea4') in 0.000338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 374.741521 seconds.
+  path: Packages/com.unity.ai.navigation/Editor/NavMeshLinkEditor.cs
+  artifactKey: Guid(ece1e865d1ad84587872fe8580ab5a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ai.navigation/Editor/NavMeshLinkEditor.cs using Guid(ece1e865d1ad84587872fe8580ab5a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a223a7667543b7fe28a7cca29dffd9a9') in 0.000253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 18.531047 seconds.
+  path: Packages/com.unity.ai.navigation/Editor/NavMeshModifierEditor.cs
+  artifactKey: Guid(6fa04b4743e3947eba4d7b9e5832ea69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ai.navigation/Editor/NavMeshModifierEditor.cs using Guid(6fa04b4743e3947eba4d7b9e5832ea69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eff369a6fa8a5e69c2c5da12c4a1f85') in 0.000260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 34.908731 seconds.
+  path: Packages/com.unity.ai.navigation/Editor/NavMeshModifierVolumeEditor.cs
+  artifactKey: Guid(c0f3bef2a67ae4e139538afec3e59b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ai.navigation/Editor/NavMeshModifierVolumeEditor.cs using Guid(c0f3bef2a67ae4e139538afec3e59b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e85f913d6e3083895584f5872023ab74') in 0.000262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 40.665310 seconds.
+  path: Packages/com.unity.ai.navigation/Editor/NavMeshSurfaceEditor.cs
+  artifactKey: Guid(1c32167dbf3314852b6006a288eb449b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ai.navigation/Editor/NavMeshSurfaceEditor.cs using Guid(1c32167dbf3314852b6006a288eb449b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f125b4fa924987021a2235975f15b9') in 0.000247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 535.613321 seconds.
+  path: Packages/com.unity.ai.navigation/Editor/ObsoleteNavigationWindowMenuEntry.cs
+  artifactKey: Guid(8e362f48bb2d44ffa7b4f9ab42658a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ai.navigation/Editor/ObsoleteNavigationWindowMenuEntry.cs using Guid(8e362f48bb2d44ffa7b4f9ab42658a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096c0c57edbb411ad97aca1b131d593c') in 0.000963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 64.886088 seconds.
+  path: Packages/com.unity.ai.navigation/EditorResources/d_NavigationWindowIcon.png
+  artifactKey: Guid(425f55e9ef81a5e48b87c5d6b1bbf35c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ai.navigation/EditorResources/d_NavigationWindowIcon.png using Guid(425f55e9ef81a5e48b87c5d6b1bbf35c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7ea25fe14a788e22f7c88a22aed5955') in 0.011123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.797924 seconds.
+  path: Packages/com.unity.ai.navigation/Tests/Editor
+  artifactKey: Guid(276ab4071255d9f49931e6a8373248e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ai.navigation/Tests/Editor using Guid(276ab4071255d9f49931e6a8373248e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11ee20cadb94b5f387c056f40039cd5e') in 0.000327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.065432 seconds.
+  path: Packages/com.unity.ai.navigation/Tests/Editor/NavigationPresenceInMenus.cs
+  artifactKey: Guid(689549d6be484a1491705f5d24fc6240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ai.navigation/Tests/Editor/NavigationPresenceInMenus.cs using Guid(689549d6be484a1491705f5d24fc6240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db2bb0df313e0253c5601b4ebc2ee42e') in 0.000252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.132731 seconds.
+  path: Packages/com.unity.ai.navigation/Tests/Editor/NavMeshModifierVolumeInPrefabTests.cs
+  artifactKey: Guid(dd4d066d0a75d8446bc2852c3bc1d4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ai.navigation/Tests/Editor/NavMeshModifierVolumeInPrefabTests.cs using Guid(dd4d066d0a75d8446bc2852c3bc1d4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afb8fe2994db00b7e2705512ae643031') in 0.000278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 17.017023 seconds.
+  path: Packages/com.unity.ai.navigation/Tests/Editor/NavMeshSurfaceInPrefabTests.cs
+  artifactKey: Guid(8e570ad5b9d660a4bbeebf9f8b872eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ai.navigation/Tests/Editor/NavMeshSurfaceInPrefabTests.cs using Guid(8e570ad5b9d660a4bbeebf9f8b872eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '202730d2a9bad0f86bc36870f4c34801') in 0.000252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.665140 seconds.
+  path: Packages/com.unity.ai.navigation/Tests/Editor/NavMeshSurfaceInPrefabVariantTests.cs
+  artifactKey: Guid(84d904f3fbe3c1b4c8daab917453682f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ai.navigation/Tests/Editor/NavMeshSurfaceInPrefabVariantTests.cs using Guid(84d904f3fbe3c1b4c8daab917453682f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92110d2f740436fff677cf52a7794c18') in 0.000275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.381405 seconds.
+  path: Packages/com.unity.ai.navigation/Tests/Editor/Unity.AI.Navigation.Editor.Tests.asmdef
+  artifactKey: Guid(794824b4a8f003f47a92875e8342f790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ai.navigation/Tests/Editor/Unity.AI.Navigation.Editor.Tests.asmdef using Guid(794824b4a8f003f47a92875e8342f790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f2d13b982eb3598113e5af5701c6a57') in 0.000326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.983764 seconds.
+  path: Packages/com.unity.ai.navigation/Tests/Editor/PrefabSavingUtil.cs
+  artifactKey: Guid(4de45126199b4c84dbc8b9620cf3263d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ai.navigation/Tests/Editor/PrefabSavingUtil.cs using Guid(4de45126199b4c84dbc8b9620cf3263d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33db0e69bcf1b1eade508a4321d4095f') in 0.000240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.224619 seconds.
+  path: Packages/com.unity.ai.navigation/Tests/Editor/PrefabStageAutoSavingUtil.cs
+  artifactKey: Guid(9cd905de8fe98d94a82de074adbd499d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ai.navigation/Tests/Editor/PrefabStageAutoSavingUtil.cs using Guid(9cd905de8fe98d94a82de074adbd499d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea5634c5920de3db0fa39ac93119eb47') in 0.000265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2656.565236 seconds.
+  path: Packages/com.unity.ai.navigation/Tests/Editor/TestUtility.cs
+  artifactKey: Guid(4a69fe61f096bf843a85c885aabf5780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ai.navigation/Tests/Editor/TestUtility.cs using Guid(4a69fe61f096bf843a85c885aabf5780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c669711df8405d63d47c1e4a2d6247d') in 0.001051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 25.613451 seconds.
+  path: Packages/com.unity.ai.navigation/Tests/Editor/Converter
+  artifactKey: Guid(585e4d2e85b344909fd03397aa977b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ai.navigation/Tests/Editor/Converter using Guid(585e4d2e85b344909fd03397aa977b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c38940c2899d83747e808111ef47187') in 0.000336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.617774 seconds.
+  path: Packages/com.unity.ai.navigation/Tests/Editor/Converter/ConverterTests.cs
+  artifactKey: Guid(726f4ec00efc48ab9ab7f5647c4c2f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ai.navigation/Tests/Editor/Converter/ConverterTests.cs using Guid(726f4ec00efc48ab9ab7f5647c4c2f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e38862e8ea7756523f2c70e1ebd49ed1') in 0.000266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 20.030169 seconds.
+  path: Packages/com.unity.ai.navigation/Tests/Runtime/Unity.AI.Navigation.Tests.asmdef
+  artifactKey: Guid(455cd750f394b1c41b963b3335eae29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ai.navigation/Tests/Runtime/Unity.AI.Navigation.Tests.asmdef using Guid(455cd750f394b1c41b963b3335eae29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b80a56ee0944349197b72f8ba419b08a') in 0.000349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.446974 seconds.
+  path: Packages/com.unity.ext.nunit/package.json
+  artifactKey: Guid(8143d3a8390f2c64685e3bc272bd9e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ext.nunit/package.json using Guid(8143d3a8390f2c64685e3bc272bd9e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e6ff00f4d339ca929f0df7e6e68e04') in 0.001629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.311357 seconds.
+  path: Packages/com.unity.ext.nunit/CHANGELOG.md
+  artifactKey: Guid(f49bbe06ffa5ae24abe32abdab430c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ext.nunit/CHANGELOG.md using Guid(f49bbe06ffa5ae24abe32abdab430c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98566a037da1ca708f083267b7f8785c') in 0.000827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.023096 seconds.
+  path: Packages/com.unity.ext.nunit/LICENSE.md
+  artifactKey: Guid(f91a00d2dca52b843b2d50ccf750737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ext.nunit/LICENSE.md using Guid(f91a00d2dca52b843b2d50ccf750737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3210806dfe4f7ff58780fd7d8e0f8484') in 0.000519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.752353 seconds.
+  path: Packages/com.unity.ext.nunit/net35
+  artifactKey: Guid(a36d8b72880a8004f96ac54ce4598ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ext.nunit/net35 using Guid(a36d8b72880a8004f96ac54ce4598ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4de398fcf109093380c4ffaf272c372') in 0.000353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.379053 seconds.
+  path: Packages/com.unity.ext.nunit/README.md
+  artifactKey: Guid(5da62a0c1c5218c4aa16b74546a7822d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ext.nunit/README.md using Guid(5da62a0c1c5218c4aa16b74546a7822d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed1bd8967ada2755978e85235db148a0') in 0.000516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 41.098313 seconds.
+  path: Packages/com.unity.ide.rider/package.json
+  artifactKey: Guid(66c95bb3c74257f41bae2622511dc02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.rider/package.json using Guid(66c95bb3c74257f41bae2622511dc02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '434b8ff34e8791c8c1b6c8da00030ca2') in 0.000544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.237843 seconds.
+  path: Packages/com.unity.ide.rider/Rider
+  artifactKey: Guid(9129183a42052cd43b9c284d6dbd541e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.rider/Rider using Guid(9129183a42052cd43b9c284d6dbd541e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '688a002043b8256824f8a8f1211a9e72') in 0.000291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.908865 seconds.
+  path: Packages/com.unity.test-framework/package.json
+  artifactKey: Guid(d6a2e6e4803de7b43baacdc355fc144d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.test-framework/package.json using Guid(d6a2e6e4803de7b43baacdc355fc144d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f735537715d2afc1cf422a3d98bb5408') in 0.000506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.755612 seconds.
+  path: Packages/com.unity.test-framework/UnityEditor.TestRunner
+  artifactKey: Guid(95cdf27b47eb82747ba9e51f41e72a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.test-framework/UnityEditor.TestRunner using Guid(95cdf27b47eb82747ba9e51f41e72a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db44e68ffec71ab7b88e859289a16aa7') in 0.000321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.108922 seconds.
+  path: Packages/com.unity.test-framework/UnityEngine.TestRunner
+  artifactKey: Guid(950890083f4907541a6ed06d70959e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.test-framework/UnityEngine.TestRunner using Guid(950890083f4907541a6ed06d70959e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94f072280d8ef6d4f2856f3740409c1a') in 0.000287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.539752 seconds.
+  path: Packages/com.unity.textmeshpro/package.json
+  artifactKey: Guid(220e9325710f4235a43492dd1ee4980d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/package.json using Guid(220e9325710f4235a43492dd1ee4980d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76e3288d49636ffd879f61a3837ce8b4') in 0.000506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.983758 seconds.
+  path: Packages/com.unity.textmeshpro/CHANGELOG.md
+  artifactKey: Guid(22464cf7ab0243a6bf9c79851183b002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/CHANGELOG.md using Guid(22464cf7ab0243a6bf9c79851183b002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f35c6ba8a678fb7dc2afad14031ba243') in 0.000600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.039088 seconds.
+  path: Packages/com.unity.textmeshpro/LICENSE.md
+  artifactKey: Guid(0d2d0f36e67d4518a07df76235e91f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/LICENSE.md using Guid(0d2d0f36e67d4518a07df76235e91f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a9c7c832b1b9d137c32715fc6e7c67d') in 0.000552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.638947 seconds.
+  path: Packages/com.unity.timeline/package.json
+  artifactKey: Guid(13a9c1b4df2e489e8eb9cacca7429596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/package.json using Guid(13a9c1b4df2e489e8eb9cacca7429596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae9adad817a93983e2eb52a0a3ded866') in 0.000559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.201851 seconds.
+  path: Packages/com.unity.timeline/README.md
+  artifactKey: Guid(f66454863bc106549a6b53849ee63b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/README.md using Guid(f66454863bc106549a6b53849ee63b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd97e23cbf6aaff3ae1eda3e2ec03238') in 0.000549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 11.380280 seconds.
+  path: Packages/com.unity.timeline/Runtime
+  artifactKey: Guid(efcf753a96a07b24dbe5f23a8ad5963d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Runtime using Guid(efcf753a96a07b24dbe5f23a8ad5963d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39892713068ba07dfffc6503d59600e3') in 0.000589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.445290 seconds.
+  path: Packages/com.unity.timeline/ValidationExceptions.json
+  artifactKey: Guid(7481ef521526b8a41ad9f2d4815ce087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/ValidationExceptions.json using Guid(7481ef521526b8a41ad9f2d4815ce087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '559abda5ab34e6caa276ce3b2db832e7') in 0.000587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 74.996900 seconds.
+  path: Packages/com.unity.ugui/package.json
+  artifactKey: Guid(319b8889f363f5947acf209c17a94149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ugui/package.json using Guid(319b8889f363f5947acf209c17a94149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d51f700e97af91693ecd180754e8e1e') in 0.001354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.219457 seconds.
+  path: Packages/com.unity.ugui/CHANGELOG.md
+  artifactKey: Guid(c851bee4305bddf438cc6ffc515991ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ugui/CHANGELOG.md using Guid(c851bee4305bddf438cc6ffc515991ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0a1832287e0d757f90a367b581ed958') in 0.001364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.457308 seconds.
+  path: Packages/com.unity.ugui/README.md
+  artifactKey: Guid(e0ae6629cc70b514889df37fccb76832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ugui/README.md using Guid(e0ae6629cc70b514889df37fccb76832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d91fb0969cbf02161e04e65b4a3d130') in 0.001262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1

@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/Fruits Knife Hit/Scenes/Main Menu.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
